@@ -9,7 +9,7 @@ from telegram import Bot
 from flask import Flask
 from threading import Thread
 
-# --- [১. সার্ভার সচল রাখার ওয়েব ইঞ্জিন] ---
+# --- [১. সার্ভার সচল রাখার জন্য ওয়েব ইঞ্জিন] ---
 app = Flask('')
 
 @app.route('/')
